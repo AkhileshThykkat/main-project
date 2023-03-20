@@ -3,7 +3,6 @@ const usernameInput = document.getElementById('username');
 const passwordInput = document.getElementById('password');
 const loginButton = document.getElementById('login-button');
 
-
 loginButton.addEventListener('click', () => {
 
   if (usernameInput.value === 'akhilesh' && passwordInput.value === 'akhilesh') {
